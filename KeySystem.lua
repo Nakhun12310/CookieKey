@@ -76,7 +76,7 @@ KeySystemTab:CreateButton({
 KeySystemTab:CreateButton({
     Name = "Get Key",
     Callback = function()
-        local keyLink = "https://key-link.com" -- Replace with your link
+        local keyLink = "https://keyguardian.org/a/2142" -- Replace with your link
         setclipboard(keyLink)
         showNotification("Key System", "🔗 Key link copied to clipboard!", true)
     end
